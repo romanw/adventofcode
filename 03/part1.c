@@ -39,8 +39,9 @@ int main(void) {
     }
 
     fclose(fp);
-    free(line);     // getline will resize the input buffer as necessary
-                    // the user needs to free the memory when not needed!
+    // getline will resize the input buffer as necessary
+    // so we need to free the memory when not needed!
+    free(line);
 
     int gamma = 0;
     int epsilon = 0;
