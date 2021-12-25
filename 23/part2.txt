@@ -1,0 +1,162 @@
+...........
+  d b c c
+  d c b a
+  d b a c
+  d a b a
+
+b..........	b*5 = 50
+  d . c c
+  d c b a
+  d b a c
+  d a b a
+
+bc......... c*5 = 500
+  d . c c
+  d . b a
+  d b a c
+  d a b a
+
+bcb........ b*5 = 50
+  d . c c
+  d . b a
+  d . a c
+  d a b a
+
+bcb.......a a*10 = 10
+  d . c c
+  d . b a
+  d . a c
+  d . b a
+
+bc........a b*6 = 60
+  d . c c
+  d . b a
+  d . a c
+  d b b a
+
+bc.....c..a c*2 = 200
+  d . . c
+  d . b a
+  d . a c
+  d b b a
+
+bc.....c..a b*7 = 70
+  d . . c
+  d . . a
+  d b a c
+  d b b a
+
+bca....c..a a*7 = 7
+  d . . c
+  d . . a
+  d b . c
+  d b b a
+
+bca....c..a b*8 = 80
+  d . . c
+  d b . a
+  d b . c
+  d b . a
+
+bca.......a c*5 = 500
+  d . . c
+  d b . a
+  d b . c
+  d b c a
+
+bca.......a c*6 = 600
+  d . . .
+  d b . a
+  d b c c
+  d b c a
+
+bca......aa a*3 = 3
+  d . . .
+  d b . .
+  d b c c
+  d b c a
+
+bca......aa c*7 = 700
+  d . . .
+  d b c .
+  d b c .
+  d b c a
+
+bc.....a.aa a*5 = 5
+  d . . .
+  d b c .
+  d b c .
+  d b c a
+
+b......a.aa	c*6 = 600
+  d . c .
+  d b c .
+  d b c .
+  d b c a
+
+.......a.aa	b*5 = 50
+  d b c .
+  d b c .
+  d b c .
+  d b c a
+
+a........aa a*7 = 7
+  d b c .
+  d b c .
+  d b c .
+  d b c a
+
+aa.......aa	a*11 = 11
+  d b c .
+  d b c .
+  d b c .
+  d b c .
+
+aa.......aa d*11 = 11000
+  . b c .
+  d b c .
+  d b c .
+  d b c d
+
+aa.......aa	d*11 = 11000
+  . b c .
+  . b c .
+  d b c d
+  d b c d
+
+aa.......aa d*11 = 11000
+  . b c .
+  . b c d
+  . b c d
+  d b c d
+
+aa.......aa	d*11 = 11000
+  . b c d
+  . b c d
+  . b c d
+  . b c d
+
+a........aa a*5 = 5
+  . b c d
+  . b c d
+  . b c d
+  a b c d
+
+.........aa	a*5 = 5
+  . b c d
+  . b c d
+  a b c d
+  a b c d
+
+..........a a*9 = 9
+  . b c d
+  a b c d
+  a b c d
+  a b c d
+
+...........	a*9 = 9
+  a b c d
+  a b c d
+  a b c d
+  a b c d
+
