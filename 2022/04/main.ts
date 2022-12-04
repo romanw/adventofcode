@@ -26,5 +26,7 @@ for await (let line of readLines(fileReader)) {
   else total2 += 1
 }
 
+Deno.close(fileReader.rid)
+
 console.log("part1: " + total1)
 console.log("part2: " + total2)
